@@ -14,7 +14,7 @@ var _ = Describe("Stuff", func() {
 		s := Day80_Ginko.S{}
 		s.Name = "Zoe"
 
-		It("has 0 items", func() {
+		It("Has to have name", func() {
 			Expect(s.Name).Should(Equal("Zoe"))
 		})
 
