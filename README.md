@@ -15,3 +15,8 @@ go get github.com/onsi/gomega/...
 ginkgo bootstrap
 
 ```
+
+## Step 4
+```bash
+ginkgo generate stuff
+```
